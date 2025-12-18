@@ -1,27 +1,29 @@
-:root.theme-dark {
-  --main-text-color: #f1b2ce;
+.page.theme_dark {
   --bg-color: #000028;
-  --main-header-color: #db00ff;
-  --button-hover-border: #ff007066;
-  --article-header-color: #000028;
-  --button-color: #ff0070;
-  --section-header-color: #ff0070;
-  --accent-color: #ff0070;
-  --bg-image: url("../images/cover-image-dark.png");
-  --rec-type: inline-flex;
+  --bg-image: url(../images/cover-image-dark.png);
+  --text-color: #F1B2CE;
+  --button-color: #FF0070;
+  --button-border-color: rgba(255, 0, 112, 0.40);
+  --page-title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --section-title-color: #FF0070;
+  --title-decor: #000028;
+  --shadow-color: #FF0070;
+  --link-shadow-color: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-text-color: #f1b2ce;
     --bg-color: #000028;
-    --main-header-color: #db00ff;
-    --button-hover-border: #ff007066;
-    --article-header-color: #000028;
-    --button-color: #ff0070;
-    --section-header-color: #ff0070;
-    --accent-color: #ff0070;
-    --bg-image: url("../images/cover-image-dark.png");
-    --rec-type: block;
-  }
+    --bg-image: url(../images/cover-image-dark.png);
+    --text-color: #F1B2CE;
+    --button-color: #FF0070;
+    --button-border-color: rgba(255, 0, 112, 0.40);
+    --page-title-color: #DB00FF;
+    --accent-color: #FF0070;
+    --section-title-color: #FF0070;
+    --title-decor: #000028;
+    --shadow-color: #FF0070;
+    --link-shadow-color: #FF0070;
+    }
 }
