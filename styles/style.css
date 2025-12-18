@@ -193,8 +193,8 @@
 
 .footer-wrapper {
   display: flex;
-  height: 100%;
   place-content: center;
+  height: 100%;
 }
 
 .page-title--footer {
@@ -210,8 +210,8 @@
   }
 
   .header__decor {
-    inset-block-start: 20px;
     inset-inline-end: 50px;
+    inset-block-start: 20px;
   }
 
   .page-title {
